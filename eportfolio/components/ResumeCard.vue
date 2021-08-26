@@ -4,6 +4,7 @@
     :loading="loading"
     class="mx-auto my-12"
     max-width="650"
+    elevation="4"
   >
     <template slot="progress">
       <v-progress-linear
@@ -19,7 +20,7 @@
             class="mx-0"
         >
             <v-col cols="auto">
-                <v-card-title>Resume</v-card-title>
+                <v-card-title class="font-weight-bold">Resume</v-card-title>
                 <v-card-text>
                   You can download my up to date resume <a href="/resume.pdf" target="blank">here</a>.
                 </v-card-text>

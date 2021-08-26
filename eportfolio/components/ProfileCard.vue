@@ -4,6 +4,7 @@
     :loading="loading"
     class="mx-auto my-12"
     max-width="650"
+    elevation="4"
   >
     <template slot="progress">
       <v-progress-linear
@@ -32,7 +33,7 @@
             class="mx-0"
         >
             <v-col cols="6">
-                <v-card-title>Patrick Sabry</v-card-title>
+                <v-card-title class="font-weight-bold">Patrick Sabry</v-card-title>
                 <v-card-subtitle>
                     Software Engineer at CareerOne <br>
                     Sydney, NSW Australia <br>

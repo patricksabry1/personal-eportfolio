@@ -4,6 +4,7 @@
     :loading="loading"
     class="mx-auto my-12"
     max-width="650"
+    elevation="4"
   >
     <template slot="progress">
       <v-progress-linear
@@ -19,13 +20,13 @@
             class="mx-0"
         >
             <v-col cols="auto">
-                <v-card-title>Academic Achievements</v-card-title>
+                <v-card-title class="font-weight-bold">Academic Achievements</v-card-title>
 
             </v-col> 
         </v-row>
         <v-row>
             <v-col cols="7" class="ml-7">
-                <p>I was included on the UTS Faculty of Engineering &amp; Information Technology Dean's list for Engineering excellence in 2021.</p>
+                <p>I was included on the UTS Faculty of Engineering &amp; Information Technology Dean's list for engineering excellence in 2021.</p>
             </v-col>
              <v-col cols="4">
                     <v-img

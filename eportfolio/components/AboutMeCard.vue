@@ -4,6 +4,7 @@
     :loading="loading"
     class="mx-auto my-12"
     max-width="650"
+    elevation="4"
   >
     <template slot="progress">
       <v-progress-linear
@@ -15,18 +16,25 @@
 
     <div>
         <v-row
+          align="center"
+          class="mx-0"
+        >
+            <v-col cols="auto">
+                <v-card-title class="font-weight-bold">About Me</v-card-title>
+            </v-col> 
+        </v-row>
+        <v-row
             align="center"
             class="mx-0"
         >
-            <v-col cols="auto">
-                <v-card-title>About Me</v-card-title>
-                <v-card-text>
+            <v-col cols="11" class="ml-7">
+                <p>
                     Hi, my name is Patrick! <br><br>
                     I am a final year student studying a Bachelor of Software Engineering at UTS, sub majoring in data analytics. <br><br>
                     I am a passionate engineering professional with over four years of software industry experience holding a number of technical positions. <br><br> 
                     Curiosity has always driven my thought process, striving to understand the inner machinations of how systems work ever since I was a kid (at the cost of many taken apart toys!). Nowadays I have a keen interest in leveraging the power of software and data to drive innovation and growth in businesses and society as a whole.
                     I truly want to make a difference in the world and I believe I can do so at scale with software engineering.
-                </v-card-text>
+                </p>
             </v-col>
                  
         </v-row>
