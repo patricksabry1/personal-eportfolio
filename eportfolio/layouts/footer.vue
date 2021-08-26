@@ -19,6 +19,7 @@
             class="mx-4 white--text"
             icon
             :href="`${icon.link}`"
+            target="_blank"
             >
             <v-icon size="24px">
                 {{ icon.icon }}
@@ -33,7 +34,7 @@
         <v-divider></v-divider>
 
         <v-card-text class="white--text">
-            {{ new Date().getFullYear() }} — <strong>Patrick Sabry</strong>
+           &copy; {{ new Date().getFullYear() }}  <strong>Patrick Sabry</strong>
         </v-card-text>
         </v-card>
         </v-col>            
@@ -56,5 +57,28 @@
 <style lang="scss" scoped>
     v-footer {
         width: 100%;
+    }
+    a:link {
+      color: white;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: pink;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: red;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+    a:active {
+      color: yellow;
+      background-color: transparent;
+      text-decoration: underline;
     }
 </style>

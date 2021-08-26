@@ -1,18 +1,12 @@
 <template>
-  <v-container>
+  <v-container id="work-experience">
     <v-row justify="space-around">
       <v-card width="650">
-          <v-card-title class="mt-8">
-            <p class="ml-3">
-              Work Experience
-            </p>
-          </v-card-title>
-          <v-card-subtitle>
-              <p class="ml-3">
-                I've had the privelage of working in industry for a fair amount of years holding multiple
-                different positions.
-              </p>
-          </v-card-subtitle>
+        <v-card-title class="mt-8">
+        <p class="ml-3">
+            Work Experience
+        </p>
+        </v-card-title>
         <v-card-text>
           <div class="font-weight-bold ml-8 mb-2">
             Current
@@ -29,10 +23,13 @@
               small
             >
               <div>
-                <div class="font-weight-normal">
-                  <strong>{{ message.from }}</strong> <br> {{ message.time }}
+                <div class="font-weight-bold">
+                  <strong><h2>{{ message.from }}</h2> {{ message.company }}</strong> <br>
+                  {{ message.time }}
                 </div>
-                <div>{{ message.message }}</div>
+                <div class="message-text font-weight-medium">
+                    {{ message.message }}
+                </div>
               </div>
             </v-timeline-item>
           </v-timeline>
@@ -48,29 +45,39 @@
       messages: [
         {
           from: 'Data Engineer',
-          message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
-          time: 'Ozhair & Beauty Pty Ltd',
+          message: 'Spearheading an exciting new data department and building out a business intelligence unit. Formulating and implementing a hollistic data governeance strategy including the development of a data warehouse, ETL pipelines, data viz platform and more.',
+          company: 'Oz Hair & Beauty Pty Ltd',
+          time: 'Current',
           color: 'deep-purple lighten-1',
         },
         {
           from: 'Junior Data Scientist',
-          message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
-          time: 'CareerOne Pty Ltd',
-          color: 'deep-purple lighten-1',
+          message: 'Developing backend microservices, data modeling, and front-end work pertaining to core systems development. PHP Laravel, MySQL, Node\/Vue.\r\n\r\nResponsible for the end-to-end development and deployment of CareerOne\'s machine learning function for its brand new platform. Duties and achievements include:\r\n\r\n- Data visualisation and supporting analytics for day-to-day business operations.\r\n- Development and integration of data ETL pipelines with existing core systems for use in statistical and ML models (Python).\r\n- Data mining and predictive modeling to provide industry insights into job-centric data.\r\n- Productionization and deployment of machine learning solutions for use in the brand\'s core product.',
+          company: 'CareerOne Pty Ltd',
+          time: 'Nov 2018 - August 2021',
+          color: 'green darken-3',
         },
         {
           from: 'Testing & Quality Assurance Analyst',
-          message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
-          time: 'CareerOne Pty Ltd',
-          color: 'green',
+          message: 'Agile BA, product testing, test lifecycle management, execution & documentation, end to end test co-ordination across business units.\r\n\r\nData modeling and analytics. Supporting business operations & management through reporting and data visualization.\r\n\r\nSuccessful delivery of a major legacy platform transformation project playing an integral role in data validation and software quality control throughout the project lifecycle.',
+          company: 'CareerOne Pty Ltd',
+          time: 'Jan 2018 - Nov 2018',
+          color: 'green darken-1',
         },
         {
           from: 'Intern Technical Business Analyst',
-          message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
-          time: 'CareerOne Pty Ltd',
-          color: 'deep-purple lighten-1',
+          message: 'Project co-ordination, business requirements analysis/modelling , software QA documenting & testing, JIRA administration',
+          company: 'CareerOne Pty Ltd',
+          time: 'Sep 2016 - Feb 2017',
+          color: 'green lighten-2',
         },
       ],
     }),
   }
 </script>
+
+<style lang="scss" scoped>
+    .message-text {
+        margin-top: 5px;
+    }
+</style>

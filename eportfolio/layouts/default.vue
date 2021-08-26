@@ -1,36 +1,26 @@
 <template>
   <v-app id="inspire">
-    <v-app-bar
-      app
-      color="white"
-      flat
-    >
-      <v-container class="py-0 fill-height">
-        <v-avatar
-          class="mr-10"
-          color="grey darken-1"
-          size="32"
-        >
-          <img src="https://media-exp1.licdn.com/dms/image/C5603AQGLG4BVQ9IPaQ/profile-displayphoto-shrink_200_200/0/1517602173837?e=1635379200&v=beta&t=xasfuw-Pko2oBTSZY_Vx09JxspUvaxzZ-jLKjQcHrY0" />
-        </v-avatar>
-        <v-spacer></v-spacer>
-      </v-container>
-    </v-app-bar>
-
+    <Header :links="links" />
     <v-main class="grey lighten-3">
       <v-container>
         <v-row>
           <v-col cols="3">
-            <v-sheet rounded="lg">
+            <v-sheet 
+              width="210"
+              rounded="lg" 
+              elevation="0" 
+              id="roadmap"
+            >
               <v-list color="transparent">
                 <v-list-item
                   v-for="link in links"
                   :key="link"
                   link
+                  @click="$vuetify.goTo(`${link.anchor}`)"
                 >
                   <v-list-item-content>
                     <v-list-item-title>
-                      {{ link }}
+                      {{ link.title }}
                     </v-list-item-title>
                   </v-list-item-content>
                 </v-list-item>
@@ -61,19 +51,58 @@
 </template>
 
 <script>
-  import Footer from '@/layouts/footer.vue';
+  import Header from '@/layouts/AppHeader.vue';
+  import Footer from '@/layouts/Footer.vue';
 
   export default {
     components: {
+      Header,
       Footer
     },
+
     data: () => ({
-      links: [
-        'About me',
-        'Academic Experience',
-        'Work Experience',
-        'Resume',
-      ],
+      links: [{
+        title: 'About me',
+        anchor: '#profile'
+      },
+      {
+        title: 'Work Experience',
+        anchor: '#work-experience'
+      },
+      {
+        title: 'Projects',
+        anchor: '#projects'
+      },
+      {
+        title: 'Skills',
+        anchor: '#skills'
+      },
+      {
+        title: 'Academic Achievements',
+        anchor: '#academics'
+      },
+      {
+        title: 'Resume',
+        anchor: '#resume'
+      }],
     }),
   }
 </script>
+
+<style lang="scss" scoped>
+  #roadmap {
+    position: fixed;
+    float: right;
+    top: 142px;
+    margin-left: 60px;
+  }
+
+  @media screen and (max-width: 1265px) {
+    #roadmap { display: none; }   /* hide it */
+  }
+
+  div {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+</style>

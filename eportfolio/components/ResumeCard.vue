@@ -1,6 +1,6 @@
 <template>
   <v-card
-    id="about-me"
+    id="resume"
     :loading="loading"
     class="mx-auto my-12"
     max-width="650"
@@ -19,14 +19,11 @@
             class="mx-0"
         >
             <v-col cols="auto">
-                <v-card-title>About Me</v-card-title>
+                <v-card-title>Resume</v-card-title>
                 <v-card-text>
-                    Hi, my name is Patrick! <br><br>
-                    I am a final year student studying a Bachelor of Software Engineering at UTS, sub majoring in data analytics. <br><br>
-                    I am a passionate engineering professional with over four years of software industry experience holding a number of technical positions. <br><br> 
-                    Curiosity has always driven my thought process, striving to understand the inner machinations of how systems work ever since I was a kid (at the cost of many taken apart toys!). Nowadays I have a keen interest in leveraging the power of software and data to drive innovation and growth in businesses and society as a whole.
-                    I truly want to make a difference in the world and I believe I can do so at scale with software engineering.
+                  You can download my up to date resume <a href="/resume.pdf" target="blank">here</a>.
                 </v-card-text>
+                
             </v-col>
                  
         </v-row>

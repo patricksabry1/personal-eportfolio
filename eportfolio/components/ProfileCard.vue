@@ -1,5 +1,6 @@
 <template>
   <v-card
+    id="profile"
     :loading="loading"
     class="mx-auto my-12"
     max-width="650"
@@ -34,7 +35,7 @@
                 <v-card-title>Patrick Sabry</v-card-title>
                 <v-card-subtitle>
                     Software Engineer at CareerOne <br>
-                    Sydney, NSW Australia
+                    Sydney, NSW Australia <br>
                 </v-card-subtitle>
             </v-col>
              <v-col 
@@ -53,14 +54,53 @@
                 <span><a href="https://www.careerone.com.au">Careerone.com.au</a></span>
             </v-col>       
         </v-row>
+        <v-row
+            align="center"
+            class="mx-0 my-0"
+        >
+            <v-col cols="2">
+                <v-btn
+                    class="mx-4"
+                    color="blue darken-2"
+                    icon
+                    :href="`${linkedin.link}`"
+                    target="_blank"
+                >
+                    <v-icon size="24px">
+                        {{ linkedin.icon }}
+                    </v-icon>
+                </v-btn>
+            </v-col>
+            <v-col cols="2">
+                 <v-btn
+                    class="mx-4"
+                    color="blue darken-2"
+                    icon
+                    :href="`${mail.link}`"
+                >
+                    <v-icon size="24px">
+                        {{ mail.icon }}
+                    </v-icon>
+                </v-btn>
+            </v-col>
+        </v-row>
     </div>
   </v-card>
 </template>
 
 <script>
-export default {
-    
-}
+  export default {
+    data: () => ({
+      linkedin: {
+        icon: 'mdi-linkedin',
+        link: 'https://www.linkedin.com/in/patricksabry/'
+      },
+      mail: {
+          icon: 'mdi-email',
+          link: 'mailto:patricksabry97@hotmail.com'
+      },
+    }),
+  }
 </script>
 
 <style lang="scss" scoped>
