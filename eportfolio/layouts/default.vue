@@ -52,7 +52,7 @@
 
 <script>
   import Header from '@/layouts/AppHeader.vue';
-  import Footer from '@/layouts/Footer.vue';
+  import Footer from '@/layouts/footer.vue';
 
   export default {
     components: {
