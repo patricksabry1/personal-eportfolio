@@ -54,7 +54,7 @@
       messages: [
         {
           from: 'Data Engineer',
-          message: 'Spearheading an exciting new data department and building out a business intelligence unit. Formulating and implementing a hollistic data governeance strategy including the development of a data warehouse, ETL pipelines, data viz platform and more.',
+          message: 'Spearheading an exciting new data department and building out a business intelligence unit. Formulating and implementing a holistic data governance strategy including the development of a data warehouse, ETL pipelines, data viz platform and more.',
           company: 'Oz Hair & Beauty Pty Ltd',
           time: 'Current',
           color: 'deep-purple lighten-1',
@@ -93,5 +93,18 @@
     .word-wrap {
         word-wrap: break-word;
         width: 460px;
+    }
+
+    @media only screen and (max-width: 645px) {
+        .word-wrap {
+            word-wrap: break-word;
+            width: 300px;
+        }
+    }
+    @media only screen and (min-width: 375px) and (max-width: 450px) {
+        .word-wrap {
+            word-wrap: break-word;
+            width: 200px;
+        }
     }
 </style>

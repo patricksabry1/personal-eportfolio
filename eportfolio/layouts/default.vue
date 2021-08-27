@@ -14,7 +14,7 @@
               <v-list color="transparent">
                 <v-list-item
                   v-for="link in links"
-                  :key="link"
+                  :key="link.anchor"
                   link
                   @click="$vuetify.goTo(`${link.anchor}`)"
                 >
@@ -30,6 +30,7 @@
 
           <v-col>
             <v-sheet
+              max-width="765"
               min-height="70vh"
               rounded="lg"
             >
