@@ -1,6 +1,7 @@
 import colors from 'vuetify/es5/util/colors'
 
 export default {
+  target: 'static',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Patrick Sabry Eportfolio',
@@ -33,12 +34,33 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
+    '@nuxtjs/pwa',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
   ],
 
+  // PWA config for script caching
+  pwa: {
+    workbox: {
+      runtimeCaching: [
+          {
+              urlPattern: 'https://fonts.googleapis.com/.*',
+              handler: 'cacheFirst',
+              method: 'GET',
+              strategyOptions: {cacheableResponse: {statuses: [0, 200]}}
+          },
+          {
+              urlPattern: 'https://fonts.gstatic.com/.*',
+              handler: 'cacheFirst',
+              method: 'GET',
+              strategyOptions: {cacheableResponse: {statuses: [0, 200]}}
+          },
+      ]
+    }
+  },
+  
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: ['~/assets/variables.scss'],

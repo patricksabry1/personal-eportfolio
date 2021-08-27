@@ -12,7 +12,11 @@
             color="grey darken-1"
             size="32"
           >
-            <img src="https://media-exp1.licdn.com/dms/image/C5603AQGLG4BVQ9IPaQ/profile-displayphoto-shrink_200_200/0/1517602173837?e=1635379200&v=beta&t=xasfuw-Pko2oBTSZY_Vx09JxspUvaxzZ-jLKjQcHrY0" />
+            <img 
+              src="https://media-exp1.licdn.com/dms/image/C5603AQGLG4BVQ9IPaQ/profile-displayphoto-shrink_200_200/0/1517602173837?e=1635379200&v=beta&t=xasfuw-Pko2oBTSZY_Vx09JxspUvaxzZ-jLKjQcHrY0" 
+              width="33"
+              height="33"
+            />
           </v-avatar>
           <v-title class="text-center">Patrick Sabry's E-portfolio</v-title>
           <v-spacer />
