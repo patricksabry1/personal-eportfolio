@@ -10,7 +10,7 @@
           class="mx-0 my-2"
         >
             <v-col cols="auto">
-                <v-card-title class="font-weight-bold">Work Experience</v-card-title>
+                <v-card-title class="font-weight-bold">Professional Work Experience</v-card-title>
             </v-col> 
         </v-row>
         <v-card-text>

@@ -10,16 +10,16 @@
             <v-card-text 
               class="text-italic font-weight-bold text-center blue--text"
             >
-              Website designed &amp; built by Patrick Sabry using Nuxt JS and the Vuetify design framework
+              Website designed &amp; built by Patrick Sabry using Nuxt JS and the Vuetify design framework. Design inspired by LinkedIn.com.
             </v-card-text>
          </v-card>
          <ProfileCard />
          <AboutMeCard />
-         <WorkExperienceCard />
-         <ProjectsCard />
-         <SkillsCard />
          <AcademicsCard />
-         <ResumeCard />
+         <WorkExperienceCard />
+         <ProfessionalProjectsCard />
+         <AcademicProjectsCard />
+         <SkillsCard />
        </v-col>
      </v-row>
   </div>
@@ -30,9 +30,9 @@
   import AboutMeCard from '@/components/AboutMeCard.vue';
   import WorkExperienceCard from '@/components/WorkExperienceCard.vue';
   import AcademicsCard from '@/components/AcademicsCard.vue';
-  import ProjectsCard from '@/components/ProjectsCard.vue';
+  import ProfessionalProjectsCard from '@/components/ProfessionalProjectsCard.vue';
+  import AcademicProjectsCard from '@/components/AcademicProjectsCard.vue';
   import SkillsCard from '@/components/SkillsCard.vue';  
-  import ResumeCard from '@/components/ResumeCard.vue';  
 
   export default {
     components: {
@@ -40,9 +40,9 @@
       AboutMeCard,
       WorkExperienceCard,
       AcademicsCard,
-      ProjectsCard,
+      ProfessionalProjectsCard,
+      AcademicProjectsCard,
       SkillsCard,
-      ResumeCard
     },
 
     data: () => ({

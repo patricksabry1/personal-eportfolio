@@ -1,10 +1,9 @@
 <template>
   <v-footer
-    class="justify-center"
-    color="indigo"
+    class="justify-center mt-2"
     padless
   >
-   <v-row>
+   <v-row class="indigo">
         <v-col cols="2" />
         <v-col cols="9">
             <v-card

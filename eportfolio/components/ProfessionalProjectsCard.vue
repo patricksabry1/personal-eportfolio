@@ -1,6 +1,6 @@
 <template>
   <v-card
-    id="projects"
+    id="professional-projects"
     class="mx-auto my-12"
     max-width="650"
     elevation="4"
@@ -11,7 +11,7 @@
         class="mx-0"
     >
         <v-col cols="auto">
-            <v-card-title class="font-weight-bold">Projects</v-card-title>
+            <v-card-title class="font-weight-bold">Professional Projects</v-card-title>
 
         </v-col> 
     </v-row>
@@ -32,6 +32,7 @@
     </v-row>
     <v-row>
         <v-col cols="11" class="ml-7">
+            <h4>Technologies: AWS, Python, Tensorflow, Keras, Sci-kit Learn, PHP, Laravel, MySQL</h4> <br>
             <p>The Salary Prediction system, nicknamed Celeste, was built using a deep neural network trained on over 1 million data points and yields an accuracy of ~87%. It utilises deep learning to produce salary estimation figures based on job title, description, skills, location and occupation that provide important insight for job seekers and advertisers. This system is able to provide key insights into a job seekers personal worth based on their job title, skills, location and so forth, while also helping job advertisers accurately advertise their job for the correct salary. This project is a revolutionary and innovative step in the online job recruitment market within Australia.</p>
         </v-col>
     </v-row>
@@ -43,23 +44,23 @@
         class="project-img"
     >
       <v-col align="center" cols="auto">
-        <v-card-title class="font-weight-bold">Real-time Data Analytics App for Industrial IoT Applications</v-card-title>
+        <v-card-title class="font-weight-bold">CareerOne Admin CRM Dashboard</v-card-title>
          <v-img
             height="350"
             width="450"
-            src="/ausdrill-halo.png"
+            src="/c1-dashboard.png"
             class="project-img"
          />
       </v-col> 
     </v-row>
     <v-row>
         <v-col cols="11" class="ml-7">
-            <p>For completion of my Engineering Capstone thesis, I was part of a multi-disciplinary team which set out to develop a real-time IoT web dashboard for a UTS industry partner.
-              As a member of the software team, I spearheaded the development of serverside and front end web applications to facilitate real-time data streaming and data visualisation through a web dashboard. <br><br>
-              The cloud-based bi-directional IoT dashboard system was designed to augment large scale agricultural machinery in hard to reach rural areas to automate their oversight and maintenance as much as possible. 
-              Farmland is often located in hard-to-reach rural areas, away from central business districts which makes operators risk averse to leveraging technology in their processes in case of failures.<br><br> 
-              The proposed system solved this problem by gathering operational data in real-time through its network of sensors on site, processing and presenting this data through the cloud in the form of a web dashboard. 
-              This affords operators real-time remote monitoring capabilities through intricate data visualisations.</p>
+            <h4>Technologies: AWS, PHP, Node JS, Laravel, Vue JS, Nuxt JS, MySQL</h4> <br>
+            <p>The CareerOne Admin dashboard project was started due to an increasing demand for customer relationship management tooling that transcended the 
+                limitations of existing out-of-the-box solutions. This project solved that problem by providing
+                a bespoke platform that allowed sales and marketing personnel to self serve many previously manual
+                business processes. I personally developed the full stack componentry for the Job Management, User Management, Ad Blacklisting and Data Mapping functionalities.
+            </p>
         </v-col>
     </v-row>
 
@@ -70,21 +71,25 @@
         class="project-img"
     >
       <v-col align="center" cols="auto">
-        <v-card-title class="font-weight-bold">Travelogue Intelligent Trip Planner App</v-card-title>
+        <v-card-title class="font-weight-bold">Applyflow Legacy System Migration</v-card-title>
          <v-img
             height="350"
             width="450"
-            src="/travelogue.png"
+            src="/applyflow.png"
             class="project-img"
          />
       </v-col> 
     </v-row>
     <v-row>
         <v-col cols="11" class="ml-7">
-            <p>The Travelogue app is an intelligent web application that leverages complex algorithms and machine learning to serve curated trip suggestions to a user based on their inputs. 
-              The app aggregates and processes hotel, venue, flight and weather data from disparate sources to generate a trip that best suites the user's constraints. <br><br>
-              The project was part of the Software Engineering Studio subject at UTS, and as a member of a 13 person team I contributed to the backend applications that acquired, processed and stored the trip data for use by the web application.
-              This included the development of data ETL pipelines, API data retrieval, API development, database development and machine learning model development and integration.
+            <h4>Technologies: AWS, PHP, Laravel, MySQL</h4> <br>
+            <p>Applyflow Ltd. was formerly known as JXT Recruitment, a multinational recruitment platform vendor
+              specialising in the development of bespoke recruiter job websites. My team at CareerOne was contracted
+              to re-build their platform from scratch. I was in charge of the data migration implementation of over 
+              20 international clients spanning Australia, England, America and Netherlands. I successfully migrated and re-mapped
+              legacy taxonomy datasets including job advertisements, locations, classifications and user email data into the 
+              brand new Applyflow ecosystem. This data migration strategy followed a parallel software development methodology
+              to ensure no disruptions to existing systems.
             </p>
         </v-col>
     </v-row>
@@ -121,6 +126,10 @@ export default {
     .project-img {
         justify-content: center;
         
-    }   
+    }  
+    .v-card__title {
+      display: block;
+    }
+
 
 </style>

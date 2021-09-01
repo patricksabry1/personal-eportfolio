@@ -11,8 +11,37 @@
             class="mx-0"
         >
             <v-col cols="auto">
-                <v-card-title class="font-weight-bold">Academic Achievements</v-card-title>
+                <v-card-title class="font-weight-bold">Academic Experience</v-card-title>
 
+            </v-col> 
+        </v-row>
+        <v-row>
+            <v-col cols="3" class="ml-7 strip-col">
+                <h4>Degree: </h4>
+            </v-col>
+            <v-col cols="8" class="strip-col">
+                <p>Bachelor of Engineering (Honours), Diploma in Professional Engineering Practice</p>
+            </v-col>
+            <v-col cols="3" class="ml-7 strip-col">
+                <h4>Major: </h4>
+            </v-col>
+            <v-col cols="8" class="strip-col">
+                <p>Software</p>
+            </v-col>
+             <v-col cols="3" class="ml-7 strip-col">
+                <h4>Sub-Major: </h4>
+            </v-col>
+            <v-col cols="8" class="strip-col">
+                <p>Data Analytics</p>
+            </v-col>
+        </v-row>
+
+        <v-row
+          align="center"
+          class="mx-0"
+        >
+            <v-col cols="auto">
+                <v-card-title class="font-weight-bold">Academic Achievements</v-card-title>
             </v-col> 
         </v-row>
         <v-row>
@@ -56,5 +85,9 @@ export default {
         display: flex;
         justify-content: space-evenly;
         ;
+    }
+
+    .strip-col {
+        padding-bottom: 0px;
     }
 </style>

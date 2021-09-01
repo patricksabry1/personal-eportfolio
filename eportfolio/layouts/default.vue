@@ -67,24 +67,24 @@
         anchor: '#profile'
       },
       {
+        title: 'Academic Experience',
+        anchor: '#academics'
+      },
+      {
         title: 'Work Experience',
         anchor: '#work-experience'
       },
       {
-        title: 'Projects',
-        anchor: '#projects'
+        title: 'Professional Projects',
+        anchor: '#professional-projects'
+      },
+      {
+        title: 'Academic Projects',
+        anchor: '#academic-projects'
       },
       {
         title: 'Skills',
         anchor: '#skills'
-      },
-      {
-        title: 'Academic Achievements',
-        anchor: '#academics'
-      },
-      {
-        title: 'Resume',
-        anchor: '#resume'
       }],
     }),
   }

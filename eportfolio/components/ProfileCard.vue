@@ -53,7 +53,7 @@
             <v-col cols="2">
                 <v-btn
                     class="mx-4"
-                    color="blue darken-2"
+                    color="info"
                     icon
                     :href="`${linkedin.link}`"
                     target="_blank"
@@ -63,10 +63,10 @@
                     </v-icon>
                 </v-btn>
             </v-col>
-            <v-col cols="2">
+            <v-col cols="4">
                  <v-btn
                     class="mx-4"
-                    color="blue darken-2"
+                    color="info"
                     icon
                     :href="`${mail.link}`"
                 >
@@ -75,6 +75,24 @@
                     </v-icon>
                 </v-btn>
             </v-col>
+            <v-col>
+                <v-btn
+                    :loading="loading3"
+                    :disabled="loading3"
+                    color="info"
+                    class="white--text"
+                    href="/resume.pdf"
+                    target="_blank"
+                    >
+                    Download my Resume
+                    <v-icon
+                        right
+                        dark
+                    >
+                        mdi-cloud-download
+                    </v-icon>
+                </v-btn>
+            </v-col> 
         </v-row>
     </div>
   </v-card>

@@ -34,7 +34,7 @@
                   This program provides students a head-start for achieving 'chartered' status with EA by encouraging students to achieve functional levels for Engineers Australia Stage 2 Competencies, 
                   since achieving 'chartered' status with EA provides a competitive edge within the engineering profession. 
                   It is championed as a symbol of trust that ensures a qualified engineer is "globally recognised, and recognised by the community, industry and Government as Professional" (Engineers Australia n.d.). <br><br>
-                  My personal EA competency progress is depicted in the above progress chart. Completing both internships and numerous projects highlighted in the projects section have enabled me to develop a function level of competency for each.
+                  My personal EA competency progress is depicted in the above progress chart. Completing both internships and numerous projects highlighted in the projects section have enabled me to develop a functional level of competency for each.
                   The learning journey is far from over, and I will strive to continue to fulfill the stage 2 EA competencies to hopefully achieve chartered status with Engineers Australia one day.
                 </p>
             </v-col>
@@ -106,13 +106,13 @@ export default {
         {text: 'End to end design, development and Productionization of machine learning models. Firsthand experience taking a conceptual ML model from prototype all the way to production including AWS EC2 configuration.'},
         {text: 'Familiar with the Amazon Web Services ecosystem including EC2, RDS and security group configuration.'},
         {text: 'Comfortable with backend PHP development using the Laravel framework. 2+ years’ experience working in a production environment building complex backend systems for the CareerOne platform.'},
-        {text: 'Experience using Vue JS framework for front end web app development at CareerOne.'}
+        {text: 'Experience using Vue JS framework for front end web app development.'}
       ],
       transferableSkills: [
-        {text: 'Confident team player, experience working in lean, cross-functional agile teams'},
-        {text: 'Strong technical and subjective written skills'},
-        {text: 'Able to show initiative and work autonomously when required'},
-        {text: 'Punctual with time, virtuous moral compass and respectful of others'},
+        {text: 'Confident team player, experience working in lean, cross-functional agile teams.'},
+        {text: 'Strong technical and subjective written skills.'},
+        {text: 'Able to show initiative and work autonomously when required.'},
+        {text: 'Punctual with time, virtuous moral compass and respectful of others.'},
       ]
     }),
 }
