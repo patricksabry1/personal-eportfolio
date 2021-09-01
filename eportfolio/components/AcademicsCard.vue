@@ -15,20 +15,35 @@
 
             </v-col> 
         </v-row>
+
+        <v-row
+            align="center"
+            class="project-img"
+        >
+        <v-col align="center" cols="auto">
+            <v-img
+                height="100"
+                width="600"
+                src="/uts-logo.png"
+                class="project-img mb-2 mt-4"
+            />
+        </v-col> 
+        </v-row>
+
         <v-row>
-            <v-col cols="3" class="ml-7 strip-col">
+            <v-col cols="2" class="ml-7 strip-col">
                 <h4>Degree: </h4>
             </v-col>
             <v-col cols="8" class="strip-col">
                 <p>Bachelor of Engineering (Honours), Diploma in Professional Engineering Practice</p>
             </v-col>
-            <v-col cols="3" class="ml-7 strip-col">
+            <v-col cols="2" class="ml-7 strip-col">
                 <h4>Major: </h4>
             </v-col>
             <v-col cols="8" class="strip-col">
                 <p>Software</p>
             </v-col>
-             <v-col cols="3" class="ml-7 strip-col">
+             <v-col cols="2" class="ml-7 strip-col">
                 <h4>Sub-Major: </h4>
             </v-col>
             <v-col cols="8" class="strip-col">
@@ -90,4 +105,9 @@ export default {
     .strip-col {
         padding-bottom: 0px;
     }
+
+    .project-img {
+        justify-content: center;
+        
+    }   
 </style>
