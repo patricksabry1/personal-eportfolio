@@ -64,27 +64,33 @@
     data: () => ({
       links: [{
         title: 'About me',
-        anchor: '#profile'
+        anchor: '#profile',
+        active: true
       },
       {
         title: 'Academic Experience',
-        anchor: '#academics'
+        anchor: '#academics',
+        active: false
       },
       {
         title: 'Work Experience',
-        anchor: '#work-experience'
+        anchor: '#work-experience',
+        active: false
       },
       {
         title: 'Professional Projects',
-        anchor: '#professional-projects'
+        anchor: '#professional-projects',
+        active: false
       },
       {
         title: 'Academic Projects',
-        anchor: '#academic-projects'
+        anchor: '#academic-projects',
+        active: false
       },
       {
         title: 'Skills',
-        anchor: '#skills'
+        anchor: '#skills',
+        active: false
       }],
     }),
   }
