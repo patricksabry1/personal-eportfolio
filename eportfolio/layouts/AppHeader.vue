@@ -9,9 +9,9 @@
       <v-container class="py-0 fill-height">
         <v-row>
           <v-col cols="4">
-            <v-title class="text-center">Patrick Sabry's E-portfolio</v-title>
+            <v-title class="text-center">Patrick's E-portfolio</v-title>
           </v-col>
-          <v-col cols="6">
+          <v-col cols="8">
             <v-btn
               class="hidden-sm-and-down"
               v-for="link in links"

@@ -5,7 +5,7 @@
       <v-container>
         <v-row>
           <v-col cols="3">
-            <v-sheet 
+            <!-- <v-sheet 
               width="210"
               rounded="lg" 
               elevation="0" 
@@ -25,7 +25,7 @@
                   </v-list-item-content>
                 </v-list-item>
               </v-list>
-            </v-sheet>
+            </v-sheet> -->
           </v-col>
 
           <v-col>
@@ -90,6 +90,21 @@
       {
         title: 'Skills',
         anchor: '#skills',
+        active: false
+      },
+      {
+        title: 'Research',
+        anchor: '#research',
+        active: false
+      },
+      {
+        title: 'Leadership',
+        anchor: '#leadership',
+        active: false
+      },
+      {
+        title: 'Teamwork & Service',
+        anchor: '#teamwork',
         active: false
       }],
     }),

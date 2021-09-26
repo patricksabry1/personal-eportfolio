@@ -33,7 +33,14 @@
     <v-row>
         <v-col cols="11" class="ml-7">
             <h4>Technologies: AWS, Python, Tensorflow, Keras, Sci-kit Learn, PHP, Laravel, MySQL</h4> <br>
-            <p>The Salary Prediction system, nicknamed Celeste, was built using a deep neural network trained on over 1 million data points and yields an accuracy of ~87%. It utilises deep learning to produce salary estimation figures based on job title, description, skills, location and occupation that provide important insight for job seekers and advertisers. This system is able to provide key insights into a job seekers personal worth based on their job title, skills, location and so forth, while also helping job advertisers accurately advertise their job for the correct salary. This project is a revolutionary and innovative step in the online job recruitment market within Australia.</p>
+            <p>The Salary Prediction system, nicknamed Celeste, was built using a deep neural network trained on over 1 million data points. 
+               It utilises deep learning to produce salary estimation figures that provide important insight to job seekers and job advertisers on the CareerOne website. <br><br>
+
+               I was responsible for the end to end development of this project as the head of my AI sub-team in the CareerOne Product Technology team. I managed stakeholder
+               expectations and performed both implementation and project management tasks. I communicated project progress to upper management and ensured 
+               the project was adhering to financial and time constraints. The project was successfully delivered in late 2019, and I regard this project as the highlight
+               of my professional experiences thus far in industry. 
+            </p>
         </v-col>
     </v-row>
     
@@ -59,7 +66,12 @@
             <p>The CareerOne Admin dashboard project was started due to an increasing demand for customer relationship management tooling that transcended the 
                 limitations of existing out-of-the-box solutions. This project solved that problem by providing
                 a bespoke platform that allowed sales and marketing personnel to self serve many previously manual
-                business processes. I personally developed the full stack componentry for the Job Management, User Management, Ad Blacklisting and Data Mapping functionalities.
+                business processes. <br><br>
+                
+                I personally developed the full stack componentry for the Job Management, User Management, Ad Blacklisting and Data Mapping functionalities. This was
+                a greenfield internal project, and thus it presented me with a unique opportunity to not just program the solution, but also be responsible for 
+                user requirements modelling, scoping and UI design of the components I built. This allowed me to engage in the entire project development lifecycle
+                autonomously. I learnt invaluable lessons in self accountability and solution architecture.
             </p>
         </v-col>
     </v-row>
@@ -83,13 +95,15 @@
     <v-row>
         <v-col cols="11" class="ml-7">
             <h4>Technologies: AWS, PHP, Laravel, MySQL</h4> <br>
-            <p>Applyflow Ltd. was formerly known as JXT Recruitment, a multinational recruitment platform vendor
-              specialising in the development of bespoke recruiter job websites. My team at CareerOne was contracted
-              to re-build their platform from scratch. I was in charge of the data migration implementation of over 
-              20 international clients spanning Australia, England, America and Netherlands. I successfully migrated and re-mapped
-              legacy taxonomy datasets including job advertisements, locations, classifications and user email data into the 
-              brand new Applyflow ecosystem. This data migration strategy followed a parallel software development methodology
-              to ensure no disruptions to existing systems.
+            <p>My team at CareerOne was contracted by a Recruitment company Applyflow Ltd to re-build their platform from scratch. 
+               I was in charge of the data migration implementation of over 20 international clients spanning Australia, England, America and Netherlands. 
+               I successfully migrated and re-mapped legacy taxonomy datasets into the 
+               brand new Applyflow ecosystem. <br><br>
+               
+               I utilised a parallel software development methodology when completing this project to ensure no disruptions to existing systems. In order to
+               deliver the project successfully, I was required to intensively communicate and collaborate with the client's technical team, marking my first
+               experience working with external stakeholders to deliver an enterprise grade solution. I diligently maintained communication channels with the
+               client throughout the entire process and my team successfully delivered the system to promised scope in 2020.
             </p>
         </v-col>
     </v-row>

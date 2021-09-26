@@ -29,13 +29,13 @@
         </v-row>
         <v-row>
             <v-col cols="11" class="ml-7">
-                <p>As part of the Diploma of Professional Practice at UTS, I was required to undertake two 6-month internships complimented by theoretical professional development subjects. 
+                <p>
+                  As part of the Diploma of Professional Practice at UTS, I was required to undertake two 6-month internships complimented by theoretical professional development subjects. 
                   This was the university's attempt at providing a guided avenue into real-world engineering experience and reflection to students prior to their graduation. <br><br>
-                  This program provides students a head-start for achieving 'chartered' status with EA by encouraging students to achieve functional levels for Engineers Australia Stage 2 Competencies, 
-                  since achieving 'chartered' status with EA provides a competitive edge within the engineering profession. 
-                  It is championed as a symbol of trust that ensures a qualified engineer is "globally recognised, and recognised by the community, industry and Government as Professional" (Engineers Australia n.d.). <br><br>
-                  My personal EA competency progress is depicted in the above progress chart. Completing both internships and numerous projects highlighted in the projects section have enabled me to develop a functional level of competency for each.
-                  The learning journey is far from over, and I will strive to continue to fulfill the stage 2 EA competencies to hopefully achieve chartered status with Engineers Australia one day.
+
+                  My personal EA competency progress is depicted in the above progress chart. Building upon the technical proficiency gained from university subjects, my skillset was further honed by working in industry parallel to my studies. Working in a professional setting
+                  has also allowed me to reinforce the theoretical concepts learned at university, and I have learnt how to conduct myself with professional integrity in the workplace.
+                  The learning journey is far from over, and I aspire to fulfill all stage 2 EA competencies to achieve chartered status with Engineers Australia one day.
                 </p>
             </v-col>
         </v-row>

@@ -20,6 +20,9 @@
          <ProfessionalProjectsCard />
          <AcademicProjectsCard />
          <SkillsCard />
+         <ResearchCard />
+         <LeadershipCard />
+         <TeamworkServiceCard />
        </v-col>
      </v-row>
   </div>
@@ -33,6 +36,9 @@
   import ProfessionalProjectsCard from '@/components/ProfessionalProjectsCard.vue';
   import AcademicProjectsCard from '@/components/AcademicProjectsCard.vue';
   import SkillsCard from '@/components/SkillsCard.vue';  
+  import ResearchCard from '@/components/ResearchCard.vue';  
+  import LeadershipCard from '@/components/LeadershipCard.vue';  
+  import TeamworkServiceCard from '@/components/TeamworkServiceCard.vue';  
 
   export default {
     components: {
@@ -43,6 +49,9 @@
       ProfessionalProjectsCard,
       AcademicProjectsCard,
       SkillsCard,
+      ResearchCard,
+      LeadershipCard,
+      TeamworkServiceCard
     },
 
     data: () => ({

@@ -16,20 +16,6 @@
             </v-col> 
         </v-row>
 
-        <v-row
-            align="center"
-            class="project-img"
-        >
-        <v-col align="center" cols="auto">
-            <v-img
-                height="100"
-                width="600"
-                src="/uts-logo.png"
-                class="project-img mb-2 mt-4"
-            />
-        </v-col> 
-        </v-row>
-
         <v-row>
             <v-col cols="2" class="ml-7 strip-col">
                 <h4>Degree: </h4>
@@ -63,13 +49,20 @@
             <v-col cols="7" class="ml-7">
                 <p>I was included on the UTS Faculty of Engineering &amp; Information Technology Dean's list for engineering excellence in 2021.</p>
             </v-col>
-             <v-col cols="4">
-                    <v-img
-                        height="150"
-                        width="300"
-                        src="https://media-exp1.licdn.com/dms/image/C5622AQG9UA-bmfUzdQ/feedshare-shrink_800/0/1624938622478?e=1632960000&v=beta&t=hI-uj6T3fXK2eFT8DkYA___2BXEAFp0piAotBmpnWoA"
-                    />
-            </v-col>
+
+        </v-row>
+        <v-row
+            align="center"
+            class="project-img"
+        >
+        <v-col align="center" cols="auto">
+            <v-img
+                height="400"
+                width="600"
+                src="https://media-exp1.licdn.com/dms/image/C5622AQG9UA-bmfUzdQ/feedshare-shrink_800/0/1624938622478?e=1635379200&v=beta&t=BauLjygiGM9bFuGlUpwva6TB-eUE4ZfpCDf5ROw1bW4"
+                class="project-img mb-2 mt-4"
+            />
+        </v-col> 
         </v-row>
     </div>
   </v-card>
