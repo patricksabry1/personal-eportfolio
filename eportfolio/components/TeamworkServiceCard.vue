@@ -11,7 +11,7 @@
           class="mx-0"
         >
             <v-col cols="auto">
-                <v-card-title class="font-weight-bold">Teamwork &amp; Serivce</v-card-title>
+                <v-card-title class="font-weight-bold">Teamwork &amp; Service</v-card-title>
             </v-col> 
         </v-row>
         <v-row
