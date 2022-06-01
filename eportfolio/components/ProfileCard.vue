@@ -8,13 +8,13 @@
     <v-img
         class="profile-banner"
         height="250"
-        src="https://media-exp1.licdn.com/dms/image/C5616AQFalbMY4-nbpA/profile-displaybackgroundimage-shrink_200_800/0/1517602174533?e=1635379200&v=beta&t=3D3Oy2RWDdjcIzolq2sxbps2qtuQxPwY3S-pPAP4bCc"
+        src="https://media-exp1.licdn.com/dms/image/C5616AQFalbMY4-nbpA/profile-displaybackgroundimage-shrink_200_800/0/1517602174533?e=1659571200&v=beta&t=nVulSW66CRk8m2EBS5xu2YXeKKQEe4ioGT9l8SJ1k-s"
     >
         <v-img
             class="profile-pic"
             heigh="100"
             width="150"
-            src="https://media-exp1.licdn.com/dms/image/C5603AQGLG4BVQ9IPaQ/profile-displayphoto-shrink_200_200/0/1517602173837?e=1635379200&v=beta&t=xasfuw-Pko2oBTSZY_Vx09JxspUvaxzZ-jLKjQcHrY0"
+            src="https://media-exp1.licdn.com/dms/image/C5603AQGLG4BVQ9IPaQ/profile-displayphoto-shrink_200_200/0/1517602173837?e=1659571200&v=beta&t=UqddqEOmWzPu0zGJujB7ZQpogLdHX434M898Hyz3hhc"
         />
     </v-img>
 
