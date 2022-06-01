@@ -1,7 +1,7 @@
 <template>
   <v-app id="inspire">
     <Header :links="links" />
-    <v-main class="grey lighten-3">
+    <v-main class="grey lighten-3 pt-16 mt-16">
       <v-container>
         <v-row>
           <v-col cols="3">
@@ -78,6 +78,11 @@
         active: false
       },
       {
+        title: 'Skills',
+        anchor: '#skills',
+        active: false
+      },
+      {
         title: 'Professional Projects',
         anchor: '#professional-projects',
         active: false
@@ -88,11 +93,6 @@
         active: false
       },
       {
-        title: 'Skills',
-        anchor: '#skills',
-        active: false
-      },
-      {
         title: 'Research',
         anchor: '#research',
         active: false
@@ -100,11 +100,6 @@
       {
         title: 'Leadership',
         anchor: '#leadership',
-        active: false
-      },
-      {
-        title: 'Teamwork & Service',
-        anchor: '#teamwork',
         active: false
       }],
     }),
@@ -126,5 +121,9 @@
   div {
     text-align: justify;
     text-justify: inter-word;
+  }
+  
+  .v-main {
+    padding: 0px 0px 0px;
   }
 </style>

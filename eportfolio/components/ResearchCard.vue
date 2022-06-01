@@ -41,15 +41,14 @@
         >
             <v-col cols="11" class="ml-7">
                 <p>
-                    I am currently partaking in a multidisciplinary capstone project at UTS for an industry partner, Ausdrill Pty Ltd. Since early 2021, I have been
-                    working alongside fellow electrical and software engineering peers to develop an intelligent web application designed to augment
-                    large scale industrial machinery with sensor networks. The system aims to gather operational data in real-time, processing and 
-                    presenting this data through the cloud to offer data visualisations and remote maintenance capabilities. <br><br>
+                    My bachelor degree honours thesis was a multidisciplinary industry sponsored project at UTS for Ausdrill Pty Ltd. I worked alongside fellow electrical and software engineering peers to develop an intelligent web application designed to augment
+                    large scale industrial machinery with sensor networks and a digital twin web system. The system gathers operational data in real-time, processing and 
+                    presenting this data through the cloud to offer bespoke data visualisations and remote maintenance capabilities. <br><br>
 
-                    Throughout the project I have spearheaded the software engineering component of the project, working autonomously in scoping client
+                    Throughout the project I spearheaded the software engineering component of the project, working autonomously in scoping client
                     requirements, designing the software architecture end to end and most importantly liasing with my peers to ensure that my systems 
-                    integrate seamlessly with the IoT team's physical systems. I strive to provide high quality documentation and communication to my peers and supervisors
-                    to ensure the project lifecycle is completed to sufficient scope.
+                    interface seamlessly with the IoT team's physical systems. I strived to provide high quality documentation and communication to my peers and supervisors
+                    to ensure smooth handover and project continuity.
                 </p>
             </v-col>
                  

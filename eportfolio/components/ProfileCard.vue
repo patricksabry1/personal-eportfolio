@@ -8,13 +8,13 @@
     <v-img
         class="profile-banner"
         height="250"
-        src="https://media-exp1.licdn.com/dms/image/C5616AQFalbMY4-nbpA/profile-displaybackgroundimage-shrink_200_800/0/1517602174533?e=1659571200&v=beta&t=nVulSW66CRk8m2EBS5xu2YXeKKQEe4ioGT9l8SJ1k-s"
+        src="/profile-banner.jpg"
     >
         <v-img
             class="profile-pic"
             heigh="100"
             width="150"
-            src="https://media-exp1.licdn.com/dms/image/C5603AQGLG4BVQ9IPaQ/profile-displayphoto-shrink_200_200/0/1517602173837?e=1659571200&v=beta&t=UqddqEOmWzPu0zGJujB7ZQpogLdHX434M898Hyz3hhc"
+            src="/profile-pic.jpg"
         />
     </v-img>
 
@@ -26,25 +26,23 @@
             <v-col cols="6">
                 <v-card-title class="font-weight-bold">Patrick Sabry</v-card-title>
                 <v-card-subtitle>
-                    Software Engineer at CareerOne <br>
+                    Senior Data Engineer at Transport for NSW <br>
                     Sydney, NSW Australia <br>
                 </v-card-subtitle>
             </v-col>
              <v-col 
-                cols="2"
+                cols="3"
                 class="text-subtitle-1 website-info"
             >
                 <br>
                 <v-img 
-                    src="https://media-exp1.licdn.com/dms/image/C560BAQG_-23cABSkHw/company-logo_100_100/0/1553810420696?e=1637798400&v=beta&t=xvDb3AQRpvvJqOt__NbtjmGbqUJCxdzMYsBsawh8tSQ"
-                    width="45"
-                    height="45"
+                    src="/tfnsw.png"
+                    width="65"
+                    height="55"
                     class="website-logo"
+                    alt="https://www.transport.nsw.gov.au/"
                 />  
             </v-col>
-            <v-col>
-                <span><a href="https://www.careerone.com.au">Careerone.com.au</a></span>
-            </v-col>       
         </v-row>
         <v-row
             align="center"
@@ -107,7 +105,7 @@
       },
       mail: {
           icon: 'mdi-email',
-          link: 'mailto:patricksabry97@hotmail.com'
+          link: 'mailto:patricksabry@gmail.com'
       },
     }),
   }

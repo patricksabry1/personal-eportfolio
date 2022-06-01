@@ -9,7 +9,7 @@
       <v-container class="py-0 fill-height">
         <v-row>
           <v-col cols="4">
-            <v-title class="text-center">Patrick's E-portfolio</v-title>
+            <v-title class="text-center"><a href="#">Patrick's E-portfolio</a></v-title>
           </v-col>
           <v-col cols="8">
             <v-btn
@@ -97,4 +97,9 @@ export default {
     position: fixed;
     display: block; 
   }
+ 
+ a {
+  color: rgb(0, 0, 0);
+  text-decoration: none; /* no underline */
+ }
 </style>

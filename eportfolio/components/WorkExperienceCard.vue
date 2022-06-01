@@ -53,18 +53,25 @@
     data: () => ({
       messages: [
         {
-          from: 'Data Engineer',
-          message: 'Spearheading an exciting new data department and building out a business intelligence unit. Formulating and implementing a holistic data governance strategy including the development of a data warehouse, ETL pipelines, data viz platform and more.',
-          company: 'Oz Hair & Beauty Pty Ltd',
+          from: 'Senior Data Engineer',
+          message: '',
+          company: 'Transport for NSW',
           time: 'Current',
           color: 'deep-purple lighten-1',
+        },
+        {
+          from: 'Lead Data Engineer',
+          message: 'Spearheading an exciting new data department and building out a business intelligence unit. Bootstrapped a holistic data governance project including the development of a data warehouse, ETL pipelines, consolidated reporting platform and more.',
+          company: 'Oz Hair & Beauty Pty Ltd',
+          time: 'Aug 2021 - Jun 2022',
+          color: 'green darken-3',
         },
         {
           from: 'Junior Data Scientist',
           message: 'Developed backend microservices, data modeling, and front-end work pertaining to core systems development. PHP Laravel, MySQL, Node\/Vue.\r\n\r\nResponsible for the end-to-end development and deployment of CareerOne\'s machine learning function for its brand new platform. Duties and achievements include:\r\n- Data visualisation and supporting analytics for day-to-day business operations.\r\n- Development and integration of data ETL pipelines with existing core systems for use in statistical and ML models (Python).\r\n- Data mining and predictive modeling to provide industry insights into job-centric data.\r\n- Productionization and deployment of machine learning solutions for use in the brand\'s core product.',
           company: 'CareerOne Pty Ltd',
-          time: 'Nov 2018 - August 2021',
-          color: 'green darken-3',
+          time: 'Nov 2018 - Aug 2021',
+          color: 'green darken-2',
         },
         {
           from: 'Testing & Quality Assurance Analyst',

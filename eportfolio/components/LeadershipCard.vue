@@ -19,6 +19,28 @@
           class="mx-0"
         >
             <v-col cols="auto">
+                <v-card-title class="font-weight-bold">Leading a brand new department at Oz Hair &amp; Beauty</v-card-title>
+            </v-col> 
+        </v-row>
+        <v-row
+            align="center"
+            class="mx-0"
+        >
+            <v-col cols="11" class="ml-7">
+                <p>
+                   My role at OHB as the head of a brand new data &amp; analytics department was to bootstrap the organization's data governance from the ground up.
+                   This included a greenfield data warehouse project, legacy system archiving and migration, and most importantly bolstering the company's data literacy.
+                   As the lead data engineer and defacto head of data, I managed stakeholder requests across the organisation from cross-departmental collaboration for reporting all the way to strategic planning with the executive directors of the business.
+                   On the ground floor, I managed the data warehouse project workflow including ideation &amp; planning, cost projections, resource and time management, agile scrum oversight, architectural design decisions and implementation.
+                   I also managed SLAs and delegated adhoc reporting requests from multiple departments, establishing a ticketing system with lead times for specific adhoc data requests across Marketing, CRM, Warehouse, Customer Service and Merchandising departments.
+                </p>
+            </v-col>    
+        </v-row>
+        <v-row
+          align="center"
+          class="mx-0"
+        >
+            <v-col cols="auto">
                 <v-card-title class="font-weight-bold">Running my own sub-team at CareerOne</v-card-title>
             </v-col> 
         </v-row>

@@ -21,10 +21,9 @@
             <v-col cols="11" class="ml-7">
                 <p>
                     Hi, my name is Patrick! <br><br>
-                    I am a final year student studying a Bachelor of Software Engineering, Diploma in Professional Engineering Practice at UTS, sub majoring in data analytics. <br><br>
-                    I am a passionate engineering professional with over four years of software industry experience holding a number of technical positions. <br><br> 
-                    Curiosity has always driven my thought process, striving to understand the inner machinations of how systems work ever since I was a kid (at the cost of many taken apart toys). Nowadays I have a keen interest in leveraging the power of software and data to drive innovation and growth in businesses and society as a whole.
-                    I truly want to make a difference in the world and I believe I can do so at scale with software engineering. I enjoy solving real world problems and fostering an inclusive team enviornment through impactful project work. 
+                    I am a software engineer from Sydney holding a Bachelor of Software Engineering (Honours) and Diploma in Professional Engineering Practice from the University of Technology, Sydney. <br><br>
+                    I am a passionate engineering professional with six years of software industry experience holding a number of technical positions. I have a breadth of knowledge across the entire SDLC, specialising in data-centric backend development. I thoroughly enjoy working in a cohesive team and have a deep understanding of the agile scrum workflow having held technical business analyst positions in the past facilitating scrum. <br><br> 
+                    Curiosity has always driven my thought process, striving to understand the inner machinations of how systems work ever since I was a kid (at the cost of many taken apart toys). I think this curiosity drives my desire to make a difference in the world and I believe I can do so at scale with software engineering and impactful project work. 
                 </p>
             </v-col>
                  

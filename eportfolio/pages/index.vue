@@ -2,27 +2,15 @@
   <div>
      <v-row>
        <v-col>
-          <v-card             
-            class="mx-auto"  
-            max-width="650"
-            outlined
-          >
-            <v-card-text 
-              class="text-italic font-weight-bold text-center blue--text"
-            >
-              Website designed &amp; built by Patrick Sabry using Nuxt JS and the Vuetify design framework. Design inspired by LinkedIn.com.
-            </v-card-text>
-         </v-card>
          <ProfileCard />
          <AboutMeCard />
          <AcademicsCard />
          <WorkExperienceCard />
+         <SkillsCard />
          <ProfessionalProjectsCard />
          <AcademicProjectsCard />
-         <SkillsCard />
          <ResearchCard />
          <LeadershipCard />
-         <TeamworkServiceCard />
        </v-col>
      </v-row>
   </div>
@@ -38,7 +26,6 @@
   import SkillsCard from '@/components/SkillsCard.vue';  
   import ResearchCard from '@/components/ResearchCard.vue';  
   import LeadershipCard from '@/components/LeadershipCard.vue';  
-  import TeamworkServiceCard from '@/components/TeamworkServiceCard.vue';  
 
   export default {
     components: {
@@ -51,7 +38,6 @@
       SkillsCard,
       ResearchCard,
       LeadershipCard,
-      TeamworkServiceCard
     },
 
     data: () => ({

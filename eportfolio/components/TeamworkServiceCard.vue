@@ -20,17 +20,16 @@
         >
             <v-col cols="11" class="ml-7">
                 <p>
-                    Throughout my five years working in industry I have had the honour of working in mutliple
+                    Throughout my six years working in industry I have had the honour of working in mutliple
                     internally facing project teams. As a member of the Product Technology team at CareerOne pty Ltd,
                     I worked in an agile team enviornment subscribing to the Agile Scrum project framework. This allowed me
                     to maintain consistent informal and formal communication with my project team and managers, delivering
                     solutions in two week increments. This taught me the value of communicating issues with my fellow engineers
                     and leaning into the team's communal intelligence to overcome adversity. <br><br>
 
-                    Moreover, studying a bachelor of Engineering has heavily involved project work throughout the last five years.
+                    Moreover, partaking in a bachelor of Engineering heavily involved project work throughout the five year degree.
                     From subjects such as Engineering Communication and Software Engineering Studios, I have participated in meaningful
-                    project work in both small and large project teams to deliver complex engineered
-                    systems. I am now a confident team player, succinct with my communication and truly understand the value of playing to
+                    project work in both small and large project teams to deliver complex systems. I am now a confident team player, succinct with my communication and truly understand the value of playing to
                     individual strengths in order to achieve a communal goal. 
                 </p>
             </v-col>

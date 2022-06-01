@@ -15,7 +15,40 @@
 
         </v-col> 
     </v-row>
+
+    <v-row
+        align="center"
+        class="project-img"
+    >
+      <v-col align="center" cols="auto">
+        <v-card-title class="font-weight-bold">Oz Hair &amp; Beauty's Modern Data Stack Data Warehouse </v-card-title>
+         <v-img
+            height="400"
+            width="400"
+            src="/DWH_architecture.png"
+            class="project-img"
+         />
+      </v-col> 
+    </v-row>
+    <v-row>
+        <v-col cols="11" class="ml-7">
+            <h4>Technologies: Snowflake, AWS(RDS S3 Glue EMR MWAA), Fivetran, Dbt, Python, PHP Laravel, Apache Airflow</h4> <br>
+            <p>Dubbed `Project Hymn Sheet`, this data warehouse is the nexus of Oz Hair &amp; Beauty’s business intelligence and machine learning function. The goal of this project was to: <br>
+                •	Consolidate, clean and refine all OHB operational data sources into a singular dependable source of truth.<br>
+                •	Power a robust modular suite of tabular and interactive reporting solutions. Data warehouse should be designed in a manner to easily facilitate connections to third party platforms/providers via connectors/API (e.g. Tableau, O365).<br>
+                •	Provide a stable, accessible data landscape to facilitate machine learning and data science work in the future, should the need arise to bring personalisation / ML / statistical modelling in-house with data scientists and analysts.<br>
+                <br><br>
+                As the lead data engineer and manager of the data &amp; analytics department at OHB I was responsible for the end to end ideation, design and implementation of this enterprise data warehouse project. Keeping aligned with cutting edge industry
+                trends I architected a solution inspired by the 'modern data stack' opting into Snowflake as the primary data store, Fivetran as the primary ETL service, and the Dbt framework for accurate and reproducible CI/CD data modelling. This stack was chosen
+                to be highly scalable, cost effective and risk-averse considering the limited in-house developer resources at the time as the team was actively growing. The wider system included a data audit system complete with monitoring dashboards, a self-hosted
+                and maintained orchestration platform (Apache Airflow), and tertiary data stores (AWS RDS) and data pipelines handling legacy data and fringe data sources that couldn't be handled by Fivetran alone. 
+
+            </p>
+        </v-col>
+    </v-row>
     
+    <v-divider></v-divider>
+
     <v-row
         align="center"
         class="project-img"

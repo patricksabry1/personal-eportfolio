@@ -59,7 +59,7 @@
             <v-img
                 height="400"
                 width="600"
-                src="https://media-exp1.licdn.com/dms/image/C5622AQG9UA-bmfUzdQ/feedshare-shrink_800/0/1624938622478?e=1635379200&v=beta&t=BauLjygiGM9bFuGlUpwva6TB-eUE4ZfpCDf5ROw1bW4"
+                src="/deans_list.png"
                 class="project-img mb-2 mt-4"
             />
         </v-col> 
